@@ -1,6 +1,6 @@
 class Monster():
 
-    def __init__(self, name):
+    def __init__(self, name, skills):
         self.name = name
         self.skills = []
 
@@ -11,7 +11,7 @@ class Monster():
         return f"Nom, nom {food} is good."
 
     def scare_attack(self):
-        return " RAAAHHHH (╯°□°)╯ "
+        return "RAAAHHHH (╯°□°)╯"
 
     def add_skills(self, skills):
         self.skills.append(skills)
