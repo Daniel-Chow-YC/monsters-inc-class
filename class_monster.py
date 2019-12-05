@@ -2,13 +2,13 @@ class Monster():
 
     def __init__(self, name, skills):
         self.name = name
-        self.skills = []
+        self.skills = skills
 
     def sleep(self):
         return 'zzzzzzzz...'
 
     def eat(self, food):
-        return f"Nom, nom {food} is good."
+        return f"Nom, nom {food} is good!"
 
     def scare_attack(self):
         return "RAAAHHHH (╯°□°)╯"
